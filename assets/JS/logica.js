@@ -2,19 +2,19 @@ const imagenProyectos = [
     {
         name: '<strong>Técnico en terreno:</strong> Instalación y reparación de redes de telecomunicaciones.',
         img: './assets/IMG/Tecnico en terreno.jpg',
-        github: 'https://www.github.com',
+        github: 'https://www.github.com/RodolfoDescazeaux',
     },
 
     {
         name: '<strong>Iluminación profesional:</strong> Montaje de equipos de iluminación profesional y mecánica de levante.', 
         img: './assets/IMG/Iluminacion profesional.jpg',
-        github: 'https://www.github.com',
+        github: 'https://www.github.com/RodolfoDescazeaux',
     },
 
     {
         name: '<strong>Ingeniero electrónico:</strong> Mantenimiento de equipos de adquisición de datos en carreteras.',
         img: './assets/IMG/Ingeniero electronico.jpg',
-        github: 'https://www.github.com',
+        github: 'https://www.github.com/RodolfoDescazeaux',
     },
 ];
 
