@@ -4,18 +4,271 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Portafolio</title>
 </head>
 
 <body>
-    
+
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/IMG/logo-full-stack.jpg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Introducción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactame">Contáctame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Fin navbar-->
+    </header>
+
+    <main>
+        <!--Introducción-->
+        <section id="introduccion">
+            <article>
+                <br>
+                <h1>Rodolfo Descazeaux</h1>
+                <hr>
+                <br>
+                <dl>
+                    <dt>DATOS DE CONTACTO</dt>
+                    <dd>
+                        <ul>
+                            <br>
+                            <li>Rut: 13.566.322-0</li>
+                            <br>
+                            <li>Dirección: El Pomelo 396, Peñaflor, RM, Chile.</li>
+                            <br>
+                            <li>Teléfono Móvil: +569 9676 9658.</li>
+                            <br>
+                            <li>Correo electrónico: rdescazeaux@gmail.com</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <br>
+                <hr>
+                <br>
+                <dl>
+                    <dt>PERFIL LABORAL Y COMPETENCIAS</dt>
+                    <br>
+                    <dd>Ingeniero Electrónico titulado en la Universidad Tecnológica Metropolitana, con experiencia en
+                        diseño, comercialización, importación, provisión, montaje, puesta en marcha, entrega y
+                        mantención de
+                        sistemas de control y fuerza, con experiencia en docencia en la especialidad de electricidad.
+                        Entre sus cualidades personales puede destacar la capacidad de análisis y trabajo bajo presión,
+                        la
+                        destreza en liderar equipos y proporcionar una ambiente colaborativo para la ejecución del
+                        trabajo.
+                        Fue ayudante de la asignatura de cálculo avanzado. Fue docente de educación media en la
+                        especialidad
+                        de electricidad. Tiene una certificación como técnico de montaje y mantención de sistemas de
+                        elevación e iluminación profesional en ETC Inc. Middleton, WI. Tiene 2 certificaciones en
+                        seguridad
+                        eléctrica.
+                    </dd>
+                </dl>
+                <br>
+                <hr>
+            </article>
+        </section>
+        <!--Fin Introducción-->
+
+        <!--Experiencia-->
+        <section id="experiencia">
+            <article>
+                <br>
+                <h2>Experiencia</h2>
+                <hr>
+                <br>
+                <dl>
+                    <dt>Telqway Chile Ltda. Octubre 2020 a la fecha.</dt>
+                    <br>
+                    <dd>
+                        <strong>Cargo:</strong> Técnico en terreno. <strong>Desempeño:</strong> Técnico en Operaciones Domicilias de redes HFC para
+                        servicios de conectividad y entretención de VTR, instalación y reparación de redes domiciliarias
+                        en telefonía, internet, WiFi y televisión. Ejecución de actividades con EPP y procedimiento de
+                        trabajo seguro en vía pública, en uso de escala de extensión y frente a riesgo eléctrico.
+                    </dd>
+                    <br>
+                    <dt>Galilei Ltda. Enero 2010 a septiembre 2020.</dt>
+                    <br>
+                    <dd>
+                        <strong>Cargo:</strong> Ingeniero de proyectos. <strong>Desempeño:</strong> Diseño, comercialización, importación, provisión,
+                        montaje, puesta en marcha, entrega y mantención de equipos de control y fuerza, de la
+                        especialidad de iluminación profesional y mecánica de levante. Servicio de mantención preventiva
+                        y correctiva de los sistemas de control. Diagnóstico y reparación de fallas de equipos
+                        electrónicos. Atención integral al cliente. Estudio y desarrollo de proyectos. Cubicación y
+                        compra de materiales y equipos electrónicos.
+                    </dd>
+                    <br>
+                    <dt>Liceo Técnico Malloco. Octubre 2008 a Diciembre 2009.</dt>
+                    <br>
+                    <dd>
+                        <strong>Cargo:</strong> Docente Especialidad Electricidad. <strong>Desempeño:</strong> Docente de aula especialidad electricidad.
+                        Preparación y enseñanza de contenidos tales como: Circuitos de control y fuerza. Aparatos de
+                        protección, medición y maniobra. Programación y conexión de PLCs. Cubicación y montaje de
+                        circuitos del area domiciliaria.
+                    </dd>
+                    <br>
+                    <dt>Pat Traffic Ltda. Mayo 2005 a junio 2008.</dt>
+                    <br>
+                    <dd>
+                        <strong>Cargo:</strong> Ingeniero Electrónico en Mantenimiento. <strong>Desempeño:</strong> Provisión, montaje, puesta en marcha,
+                        capacitación y mantenimiento de equipos de adquisición de datos en carreteras. Reclutamiento,
+                        selección y manejo de personal. Supervisión del mantenimiento en regiones. Mantención y análisis
+                        de circuitos electrónicos en laboratorio, detección y reparación de fallas. Montaje, conexión,
+                        configuración y puesta en marcha de equipos.
+                    </dd>
+                    <br>
+                    <dt>Empresa De Servicios Sanitarios De Los Lagos S.A. Enero 2005 a Abril 2005.</dt>
+                    <br>
+                    <dd>
+                        <strong>Cargo:</strong> Ingeniero Electrónico Aprendiz. <strong>Desempeño:</strong> Mantenimiento de equipos de producción de agua
+                        potable y tratamiento de aguas servidas. Análisis de sistemas de fluoración del agua potable,
+                        integrado por actuadores, sensores, PLC de gama en baja, contactores, tableros y protecciones.
+                    </dd>
+                </dl>
+                <hr>
+            </article>
+        </section>
+        <!--Fin Experiencia-->
+
+        <!--Proyectos-->
+        <!--Carrusel-->
+        <section id="proyectos">
+            <article>
+                <br>
+                <h2>Proyectos</h2>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./assets/IMG/Tecnico en terreno.jpg" class="d-block" alt="Técnico en terreno" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" onclick="modalcito(0)">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./assets/IMG/Iluminacion profesional.jpg" class="d-block" alt="Iluminación profesional" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" onclick="modalcito(1)">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./assets/IMG/Ingeniero electronico.jpg" class="d-block" alt="Ingeniero electrónico" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" onclick="modalcito(2)">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev bg-black" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next bg-black" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </article>
+            <!--Fin Carrusel-->
+
+            <!--Modal-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img scr="..." alt="">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="#"><button type="button" class="btn btn-primary">Repo Github</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Modal-->
+        </section>
+        <!--Fin Proyectos-->
+
+        <!--Contáctame-->
+        <section id="contactame">
+            <article>
+                <br>
+                <h2>Contáctame</h2>
+                <br>
+                <form action="pagina_dos.html" class="row g-3">
+                    <div class="col-md-12">
+                        <label for="inputName" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputName" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputEmail4" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="inputEmail4" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputState" class="form-label">Motivo</label>
+                        <select id="inputState" class="form-select">
+                            <option selected value="Felicitacion">Felicitación</option>
+                            <option value="Reclamo">Reclamo</option>
+                            <option value="Sugerencia">Sugerencia</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputReason" class="form-label">Motivo</label>
+                        <textarea type="text" class="form-control" id="inputReason"></textarea>
+                    </div>
+                    
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+        <!--Fin Contáctame-->
+    </main>
+
+    <footer class="bg-primary fixed-bottom">
+        <p>Marca registrada Rodolfo Descazeaux</p>
+    </footer>
+
+    <!--JavaScript-->
     <script src="assets/JS/logica.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 
 </html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+section{
+    min-height: 100vh;
+    padding-top: 4rem;
+}
+
+article{
+    padding-inline: 4rem;
+}
+
+#introduccion{
+    background-image: url('../IMG/pexels-padrinan-19670.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#experiencia{
+    background-image: url('../IMG/pexels-mdsnmdsnmdsn-1831234.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contactame{
+    background-image: url('../IMG/pexels-pixabay-235985.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand img{
+    width: 5rem;
+}
+
+#proyectos{
+    background-color: aqua;
+}
+
+.carousel-item img{
+    margin: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    border-radius: 20px;
+    border: gold solid 5px;
+}
+
+.modal-body img {
+    width: 100%;
+}
